@@ -1,0 +1,18 @@
+.container {
+  width: 11.59cm;
+  height: 11.48cm;
+  background-color: white;
+  border-top: 30px solid gray;
+  border-bottom: 10px solid gray;
+  border-left: 10px solid gray;
+  border-right: 10px solid gray;
+}
+
+.title {
+  margin-top: 1cm;
+  margin-left: 0.5cm;
+}
+
+ul {
+  margin-bottom: 10px;
+}
