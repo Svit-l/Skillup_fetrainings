@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <form action="app.php" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Name</td>
+                    <td> <input type="text" name="username" 
+                        id="username"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sex</td>
+                    <td><input type="radio" name="Sex" 
+                        value="Male" checked> Male </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Sex" 
+                        value="Female"> Female </td>                    
+                </tr>
+                <tr>
+                    <td>Eye color</td>
+                    <td>
+                    <select name="Eye color">
+                        <option value="green" selected>green</option>
+                        <option value="broun">broun</option>
+                        <option value="blue">blue</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Check all that apply</td>
+                    <td><input type="checkbox" name="Check"
+                        value="Over 6 feet tall"> Over 6 feet tall </td>
+                </tr>
+                    <td><input type="checkbox" name="Check" 
+                        value="Over 200 pounds"> Over 200 pounds </td>
+                <tr>
+                    <td colspan="2"> Describe your athletic ability:
+                        <p class="textarea"><textarea name="comment"></textarea></p>
+                    </td>
+                </tr>
+                <tr class="tr9">
+                    <td colspan="2"><input type="submit" name="submit" 
+                        value="Enter my information" class="btn"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
