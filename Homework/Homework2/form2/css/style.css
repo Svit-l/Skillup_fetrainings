@@ -6,35 +6,36 @@
   box-sizing: border-box;
 }
 
-body {
-}
-
 h1 {
   font-family: Genevaf;
   font-size: 16px;
-  background-color: rgb(255, 161, 53);
+  background-color: rgb(255, 191, 53);
   padding: 5px 0px;
+  text-align: center;
 }
 
 h2 {
   font-family: Genevaf;
   font-size: 16px;
   padding: 10px 0px;
+  text-align: center;
 }
 
 label {
   display: inline-block;
-  width: 200px;
+  width: 180px;
   padding: 5px 10px;
   text-align: right;
   vertical-align: top;
 }
 
-.main {
-  padding-bottom: 15px;
+div {
+  margin-bottom: 10px;
 }
 
-p {
+span {
+  font-family: Georgia;
+  margin-left: 5px;
 }
 
 .loginform {
@@ -44,5 +45,16 @@ p {
   margin: 0px auto;
   margin-top: 50px;
   padding: 0px 0px 30px 0px;
-  text-align: center;
+}
+
+#quantity1 {
+  margin-top: 22px;
+}
+
+#quantity {
+  margin-left: 184px;
+  font-size: 10pt;
+}
+#btn {
+  margin-left: 185px;
 }
