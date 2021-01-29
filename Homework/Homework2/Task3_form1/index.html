@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Svitlana Lozovenko">
+  <meta name="description" content="My first html homeworks. Homework 2. Task 2.3 - Make up the form 1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework2/3/Form1</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Form 1</h1>
+  </header>
+  <main>
+    <div>
+      <form action="app.php" method="post">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td><input type="text" name="username" id="username" /></td>
+            </tr>
+            <tr>
+              <td rowspan="2">Sex</td>
+              <td><input type="radio" name="Sex" value="Male" /> Male</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="Sex" value="Female" checked /> Female
+              </td>
+            </tr>
+            <tr>
+              <td>Eye color</td>
+              <td>
+                <select name="Eye color" id="eye">
+                  <option value="green" id="eye1" selected>green</option>
+                  <option value="brown" id="eye2">brown</option>
+                  <option value="blue" id="eye3">blue</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">Check all that apply</td>
+              <td>
+                <input type="checkbox" name="Check" value="Over 6 feet tall" />
+                Over 6 feet tall
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="Check" value="Over 200 pounds" />
+                Over 200 pounds
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                Describe your athletic ability:
+                <p>
+                  <textarea id="describe" name="comment" cols="39" rows="3"></textarea>
+                </p>
+              </td>
+            </tr>
+            <tr class="tr9">
+              <td colspan="2">
+                <input type="submit" name="submit" value="Enter my information" class="btn" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+    <p class="return-contest"><a href="../../contents.html">Return to contents of homeworks</a></p>
+  </main>
+  <footer>
+    <p class="footer">Copyright &copy; 2021 by Svit_L. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>

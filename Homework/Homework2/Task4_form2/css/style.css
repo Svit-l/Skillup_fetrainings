@@ -7,14 +7,21 @@
 }
 
 h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+h2 {
   font-family: Genevaf;
   font-size: 16px;
-  background-color: rgb(255, 191, 53);
+  background-color: rgb(255, 217, 50);
   padding: 5px 0px;
   text-align: center;
 }
 
-h2 {
+h3 {
   font-family: Genevaf;
   font-size: 16px;
   padding: 10px 0px;
@@ -24,7 +31,7 @@ h2 {
 label {
   display: inline-block;
   width: 180px;
-  padding: 5px 10px;
+  padding: 0px 10px;
   text-align: right;
   vertical-align: top;
 }
@@ -39,7 +46,7 @@ span {
 }
 
 .loginform {
-  background-color: rgb(255, 255, 121);
+  background-color: rgb(253, 253, 156);
   width: 100%;
   max-width: 600px;
   margin: 0px auto;
@@ -47,14 +54,29 @@ span {
   padding: 0px 0px 30px 0px;
 }
 
-#quantity1 {
-  margin-top: 22px;
+.return-contest {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 14pt;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 8pt;
+  font-family: Georgia;
 }
 
 #quantity {
+  margin-top: 22px;
+}
+
+#quantity2,
+#quantity3,
+#quantity4 {
   margin-left: 184px;
   font-size: 10pt;
 }
 #btn {
-  margin-left: 185px;
+  margin-left: 184px;
 }

@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+ul {
+  margin-bottom: 10px;
+}
+
+span {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 8pt;
+  font-family: Georgia;
+}
+
+.index {
+  font-weight: 700;
+}
+
+.container {
+  width: 11.59cm;
+  height: 11.48cm;
+  background-color: white;
+  border: 10px solid gray;
+  border-top: 30px solid gray;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.title {
+  margin-top: 1cm;
+}
+
+.list-style2 {
+  list-style-type: disc;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.return-contest {
+  margin-top: 40px;
+  font-size: 14pt;
+}

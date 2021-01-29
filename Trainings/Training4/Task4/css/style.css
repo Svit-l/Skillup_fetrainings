@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  /* display: inline-block; */
+  background-color: rgba(143, 55, 55, 0.5);
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+#two {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: blue;
+  background-image: url("../img/151.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.positioned {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: yellow;
+}
