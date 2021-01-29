@@ -1,12 +1,10 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
 }
 
 body {
   padding: 40px;
-  box-align: center;
   font-size: 18pt;
 }
 
